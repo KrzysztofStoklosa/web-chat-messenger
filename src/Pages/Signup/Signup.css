@@ -1,0 +1,84 @@
+.signupCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #1ebea5;
+  width: 100%;
+  box-shadow: 0 5px 5px #808888;
+  height: 10.5rem;
+  padding-top: 48px;
+  opacity: 0.5;
+  border-bottom: 5px solid green;
+}
+.btn {
+  background-color: green;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  border: none;
+  margin-top: 10px;
+  box-shadow: 0 5px 5px 2px #808888;
+}
+.signupFormCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("../../images/water.jpg");
+  overflow: hidden;
+}
+.signupForm {
+  border-radius: 10px;
+  width: 50rem;
+  height: 110vh;
+  box-shadow: 0 80px 80px #808888;
+  margin: 5px;
+  justify-content: center;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  background-color: #f8f8ff;
+  margin-bottom: 40px;
+}
+.signupP {
+  color: grey;
+  font-size: 15px;
+}
+.signupp {
+  color: black;
+  font-size: 24px;
+  margin-top: 40px;
+}
+.signupButton1 {
+  border-radius: 4px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  background-color: rgb(10, 65, 50); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.signupForm a {
+  margin-top: 15px;
+  text-decoration: none;
+  color: #99174d;
+}
+.signupForm a:hover {
+  color: red;
+}
+.error {
+  align-items: center;
+  display: flex;
+  margin-left: 150px;
+  color: red;
+}

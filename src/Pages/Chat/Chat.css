@@ -1,0 +1,108 @@
+.root {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+}
+.listUserViev {
+  overflow-y: scroll;
+  max-height: 100vh;
+  min-height: 90vh;
+  height: auto;
+  width: 50vh;
+}
+.leftSideProfilViev {
+  padding: 10px;
+  width: 100%;
+  background-color: #ededed;
+  height: 64px;
+  position: relative;
+  margin-top: 0;
+}
+
+.ProfilePicture {
+  width: 45px;
+  height: 45px;
+  background-image: url(../../images/nopic.jpg);
+  left: 10px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.logoutButton {
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  cursor: pointer;
+  color: black;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0 5px 5px #808888;
+}
+.viewAvatarItem {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  background-image: url(../../images/nopic.jpg);
+}
+.viewWrapItemFocused {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  max-width: 44vh;
+  min-width: 44vh;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.viewWrapContentItem {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  margin-left: 15px;
+  color: #203152;
+  word-wrap: break-word;
+}
+.viewWrapItemNotification {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #1de9b6;
+  max-width: 44vh;
+  min-width: 44vh;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+.viewWrapItem {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  max-width: 44vh;
+  min-width: 44vh;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+.newmessages {
+  font-size: 8px;
+}
+.notificationpragraph {
+  right: 0;
+  bottom: 0;
+}
+.viewBoard {
+  display: flex;
+  flex: 1;
+  max-height: 90vh;
+}

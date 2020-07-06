@@ -1,0 +1,46 @@
+.home-container {
+  background: #1f8dd6;
+  width: 100%;
+  height: 78vh;
+  overflow: hidden;
+  top: 15vh;
+}
+.home-container-head {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  height: 50%;
+  width: 100%;
+}
+.home-container-head h1 {
+  width: 40%;
+  margin: 10% auto 2% auto;
+  padding: 5%;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.home-container-head p {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 3%;
+}
+.home-container-head a {
+  text-decoration: none;
+}
+.home-container-head button {
+  background-color: green;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 20%;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  color: white;
+  text-transform: uppercase;
+}
+.home-container-head button:hover {
+  transform: scale(1, 1.2);
+}
